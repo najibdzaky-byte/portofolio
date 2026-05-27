@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { FaMedium, FaLinkedin, FaInstagram, FaTiktok, FaBars, FaTimes } from 'react-icons/fa';
 
-import fotoProfil from './assets/profile.jpg';
+import fotoProfil from './profile.jpg';
 // Memuat Google Fonts (Lexend Deca) & CSS Kustom untuk Animasi Flowing Blue Gradient + Floating Badges Besar
 const CustomGlobalStyles = () => (
   <style dangerouslySetInnerHTML={{__html: `
